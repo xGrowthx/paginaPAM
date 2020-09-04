@@ -1,0 +1,91 @@
+.banner > nav > ul > li{
+  display: inline-block;
+  list-style: none;
+  border: 1px white solid;
+  margin-left: 10px; 
+}
+
+.banner > nav > ul > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 15px;
+  font-family: fantasy;
+  float: right;
+
+}
+
+.banner > nav > ul > li > a:hover{
+  background-color: blueviolet;
+}
+
+.banner > nav > ul {
+  text-align: center;
+  margin: 20px 50px 0px 0px;
+
+}
+
+.content-section {
+  font-weight: bold;
+  
+}
+
+.banner {
+  height: 100px;
+  padding: 10px;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 0px;
+}
+
+.banner:hover{
+  background-color: rgba(36, 187, 214, 0.4)
+}
+
+.item {
+  height: 40px;
+  margin: 2px;
+  padding: 5px 0px 0px 5px;
+} 
+
+.content-section{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.content-section > ul > li {
+  color: #239aff;
+  list-style: none;
+
+
+}
+
+.content-section > ul > li > a {
+  text-decoration: none;
+  color: #239aff;
+  
+}
+
+.content-section > ul > li > a:hover {
+  color: darkblue;
+  
+}
+
+h2 {
+  color: purple;
+  border: outset ;
+  padding: 5px 0px 5px 5px;
+  box-shadow: 2px 2px 2px black;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  
+}
